@@ -42,7 +42,7 @@ while (True):
 
 奔跑起来吧 `python3 receiveSIGUSR1.py`
 
-然后新开一个终端输入 `kill -USR1 上边脚本打印出来的进程ID`
+然后新开一个终端输入 `kill -USR1 {上边脚本打印出来的进程ID}`
 
 还是很好玩哈哈。
 
