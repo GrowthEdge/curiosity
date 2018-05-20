@@ -94,4 +94,10 @@ SIGUSR1 = Signal Unix Shared Resources 1?
 
 SIGUSR1 = Signal user 1? 缩一个字母很难理解...
 
+`User System Resources` ?
 
+<http://www.gnu.org/software/libc/manual/html_node/Miscellaneous-Signals.html>
+
+
+
+# 
