@@ -7,7 +7,16 @@ SIGUSR1 SIGUSR2
 
 * 问题1：怎么能快速实验下这两个信号？
 
+我觉得应该先找个一`python`的案例，直觉上觉得`python`从表面上更容易理解一点：
 
+```python
+import signal
+import os
+
+os.kill(12345, signal.SIGUSR1)
+
+```
+代码出来内心还是安稳了很多....
 
 
 * 问题1：SIGUSR1、SIGUSR2 有什么惯例的使用方法吗？
