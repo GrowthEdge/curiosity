@@ -16,11 +16,25 @@ SIGUSR1 SIGUSR2
 
 我觉得应该先找个一`python`的案例，直觉上觉得`python`从表面上更容易理解一点：
 
-```python
+
+
+```python receiveSIGUSER1.py
 import signal
 import os
+from time import sleep
 
-os.kill(12345, signal.SIGUSR1)
+def handlerSIGUSER1(signalNumber, stack):
+    print("shutup!!!")
+
+
+signal.signal(signal.SIGUSR1, handlerSIGUSER1)
+print(os.getpid())
+
+while (True):
+    print("hi man")
+    sleep(1)
+
+
 
 ```
 代码出来内心还是安稳了很多....
