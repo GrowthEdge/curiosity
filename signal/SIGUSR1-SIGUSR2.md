@@ -88,7 +88,7 @@ kill -s USR1 45988
 
 从看到`用户`两个字开始就从主观意识上认为这个就应该是`user` 而不是 `usr`
 
-![why usr?](SIGUSR1-why-not-user.jpg)
+![why usr?](./images/SIGUSR1-why-not-user.jpg)
 
 SIGUSR1 = Signal Unix Shared Resources 1?
 
