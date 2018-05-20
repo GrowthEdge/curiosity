@@ -16,18 +16,18 @@ SIGUSR1 SIGUSR2
 
 我觉得应该先找个一`python`的案例，直觉上觉得`python`从表面上更容易理解一点：
 
-`receiveSIGUSER1.py`
+`receiveSIGUSR1.py`
 
 ```python 
 import signal
 import os
 from time import sleep
 
-def handlerSIGUSER1(signalNumber, stack):
+def handlerSIGUSR1(signalNumber, stack):
     print("shutup!!!")
 
 
-signal.signal(signal.SIGUSR1, handlerSIGUSER1)
+signal.signal(signal.SIGUSR1, handlerSIGUSR1)
 print(os.getpid())
 
 while (True):
