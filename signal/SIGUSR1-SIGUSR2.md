@@ -72,9 +72,9 @@ hi man
 shutup!!!
 hi man
 ```
-kill -s USR1 45988
-kill -s USR1 45988
-kill -s USR1 45988
-```
 
+```
+kill -s USR1 45988
+kill -s USR1 45988
+kill -s USR1 45988
 ```
