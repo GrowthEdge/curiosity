@@ -90,6 +90,8 @@ kill -s USR1 45988
 
 ![why usr?](SIGUSR1-why-not-user.jpg)
 
+sigusr1 = Signal Unix Shared Resources 1?
 
+sigusr1 = Signal user 1? 缩一个字母很难理解...
 
 
