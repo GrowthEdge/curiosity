@@ -23,9 +23,11 @@ import signal
 import os
 from time import sleep
 
+
 # 处理信号的函数
 def handlerSIGUSR1(signalNumber, stack):
     print("shutup!!!")
+
 
 # 把信号`USR1` 交给 `handlerSIGUSR1` 来处理
 signal.signal(signal.SIGUSR1, handlerSIGUSR1)
@@ -35,6 +37,7 @@ print(os.getpid())
 while (True):
     print("hi man")
     sleep(1)
+
 ```
 
 代码出来内心还是安稳了很多....
