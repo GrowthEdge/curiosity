@@ -10,15 +10,15 @@ SIGUSR1 SIGUSR2
 听说linux有64个信号啊，NND太TMD多了，真的是好尴尬！
 
 
-* 问题1：怎么能快速实验下这两个信号？
+### 问题1：怎么能快速实验下这两个信号？
 
 
 
 我觉得应该先找个一`python`的案例，直觉上觉得`python`从表面上更容易理解一点：
 
+`receiveSIGUSER1.py`
 
-
-```python receiveSIGUSER1.py
+```python 
 import signal
 import os
 from time import sleep
