@@ -50,3 +50,31 @@ while (True):
 
 从表象的认知来说，应该恐惧少了一点点...
 
+执行的结果如下：
+
+```
+python3 receiveSIGUSR1.py
+45988
+hi man
+hi man
+hi man
+hi man
+hi man
+hi man
+hi man
+hi man
+hi man
+shutup!!!
+hi man
+hi man
+shutup!!!
+hi man
+shutup!!!
+hi man
+```
+kill -s USR1 45988
+kill -s USR1 45988
+kill -s USR1 45988
+```
+
+```
